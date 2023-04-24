@@ -1,0 +1,53 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav {
+    background-color: grey;
+    height: 45px;
+    padding: 0;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+}
+img{
+    width: 40px;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    height: auto;
+    display: inline-block;
+    margin: 0;
+}
+nav ul li{
+    vertical-align: middle;
+    height: 45px;
+    display: inline-block;
+}
+nav ul li a{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{color:white}
+a:hover{text-decoration: none;color: white;}
+
+#calculadora ul{
+    border: 1px solid black;
+    display: table;
+}
+
+#calculadora ul tr{
+    border: 1px solid black;
+    display: table-column;
+}
+#calculadora ul li{
+    border: 1px solid black;
+    display: table-row;
+}

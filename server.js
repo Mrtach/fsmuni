@@ -5,7 +5,9 @@ const fs = require('fs').promises;
 
 const server = http.createServer((req, res) => {
     fs.readFile('./index.html', 'utf8').then(data => {
-        res.writeHead(200, {'Content-Type': 'text/html'});
+        res.statusCode = 200;
+        res.
+        //res.writeHead(200, {'Content-Type': 'text/html'});
         res.write(data);
         res.end();
     });

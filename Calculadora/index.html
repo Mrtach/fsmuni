@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="calculator.ico">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="calculadora.js" defer></script>
+    <title>Mi calculadora</title>
+</head>
+<body>
+    <!-- <div id="contenedor"> -->
+        <table>
+            <tr>
+                <th colspan="4"><textarea type="number" name="resultado" id="resultado" cols="30" rows="1"
+                        readonly></textarea></th>
+            </tr>
+            <tr>
+                <td><button type="submit" onClick="insertar('7')">7</button></td>
+                <td><button type="submit" onClick="insertar('8')">8</button></td>
+                <td><button type="submit" onClick="insertar('9')">9</button></td>
+                <td><button type="submit" onClick="insertar('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button type="submit" onClick="insertar('4')">4</button></td>
+                <td><button type="submit" onClick="insertar('5')">5</button></td>
+                <td><button type="submit" onClick="insertar('6')">6</button></td>
+                <td><button type="submit" onClick="insertar('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button type="submit" onClick="insertar('1')">1</button></td>
+                <td><button type="submit" onClick="insertar('2')">2</button></td>
+                <td><button type="submit" onClick="insertar('3')">3</button></td>
+                <td><button type="submit" onClick="insertar('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="submit" onClick="clearDisplay();">C</button></td>
+                <td><button type="submit" onClick="insertar('0')">0</button></td>
+                <td><button type="submit" onClick="">,</button></td>
+                <td><button type="submit" onClick="insertar('+')">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="4"><button type="submit" onclick="calc();">=</button></td>
+            </tr>
+        </table>
+    <!-- </div> -->
+</body>
+
+</html>

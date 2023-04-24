@@ -1,0 +1,76 @@
+*{
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+}
+html,body{
+    background-color: #4158D0;
+    background-image: linear-gradient(315deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+#contenedor{
+    height: 100%;
+    background-color: #4158D0;
+    background-image: linear-gradient(315deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+textarea{
+    margin: 0;
+    font-size: 35px;
+    resize: none;
+    min-width: 50px;
+    max-width: 300px;
+    height: 45px;
+    border: 0;
+    outline: 0;
+    text-align: right;
+}
+textarea:focus,textarea:focus-visible{
+    border: 0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type="number"]{
+    resize: none;
+    max-width: 300px;
+    height: 45px;
+    resize: none;
+    outline: 0;
+    border: 0;
+    text-align: right;
+}
+table,th,td,tr{
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+}
+table {
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-collapse: collapse;
+    max-width: 350px;
+    height: 350px;
+}
+th{
+    grid-row: 0 3;
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+}
+button{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
