@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+     *{
+          font-size: 20px;
+      }
+      ul,li{
+          display: inline-block;
+      }
+      a,a:visited{
+          text-decoration: none;
+          color: black;
+      }
+      a:focus ~ .menu-oculto{
+          visibility: visible;
+      }
+      .menu-oculto{
+          display:block;
+          position: absolute;
+          border: 1px solid red;
+          visibility: hidden;
+      }
+      .menu-oculto li{
+          display: list-item;
+          list-style: none;
+          list
+          text-decoration: none;
+          padding: 0;
+      }
+      .menu-oculto li:hover{
+          background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Hola</li>
+      <li>mundo</li>
+      <li>
+        <a href="#">Menu</a>
+        <div class="menu-oculto">
+          <ul>
+            <li><a href="#">Opcion 1</a></li>
+            <li><a href="#">Opcipn 2</a></li>
+            <li><a href="#">Opcion 3</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </body>
+</html>
