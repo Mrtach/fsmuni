@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>(╯°□°）╯︵ ┻━┻</title>
+    <title>Lampara</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +17,7 @@
     <script type="text/javascript" src="JS/script.js"></script>
   </head>
   <body class="bg-light-subtle">
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark bg-gradient">
+    <nav class="navbar navbar-expand-sm navbar-dark text-bg-dark bg-gradient">
       <div class="container">
       <a class="navbar-brand" href="#"><img id="nav_logo" src="/webConStyle/images/logo.png" alt="logo"></a>
       <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -27,14 +27,14 @@
       <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav me-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" href="#" aria-current="page">Inicio <span class="visually-hidden">(current)</span></a>
+            <a class="nav-link active" href="index.html" aria-current="page">Inicio <span class="visually-hidden">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ejemplos</a>
             <div class="dropdown-menu text-bg-danger" aria-labelledby="dropdownId">
               <a class="dropdown-item" href="lampara.html">Lampara</a>
               <a class="dropdown-item" href="#">Diseño Grafico</a>
-              <a class="dropdown-item" href="#">IT uwu</a>
+              <a class="dropdown-item" href="#">IT</a>
             </div>
           </li>
           <li class="nav-item">
@@ -47,20 +47,18 @@
   </nav>
     <header>
     </header>
-    <div class="container-fluid">
-      <div class="row justify-content-center align-items-center g-1 mt-5">
-        <div class="col-sm-12 col-md-4 col-xl-5">
-          <h1>Hola mundo</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, obcaecati esse! Soluta similique iusto, suscipit fugit neque a hic accusantium ipsum corrupti. Repudiandae sit totam explicabo eaque? Iure, illo inventore harum facere deleniti animi ut ratione nemo, aut ipsum possimus delectus eligendi culpa voluptas sequi at quo dicta rem. Harum quasi quibusdam dolorem et, tempora id at quos veniam vel beatae voluptate hic vero minus quia fugit omnis repellat, dolores ad aperiam voluptatem neque! Obcaecati animi explicabo mollitia, ut illo error facilis fuga debitis iusto ipsa ab quibusdam consequuntur ratione accusantium laboriosam doloribus corrupti possimus libero, similique incidunt ex sint?</p>
+
+    <div class="container mt-5" style="">
+      <div class="d-flex justify-content-center">
+        <h4>Ejemplo de lampara</h4>
+      </div>
+      <div class="row align-content-center justify-content-center">
+        <div class="col-sm-12 col-md-4 d-flex justify-content-center">
+          <img style="width: 50%;" id="lamp" src="/webConStyle/images/lamp-off.png" class="img-fluid rounded-top" alt="">
         </div>
-        <div class="col-sm-12 col-md-6 col-xl-6 card text-bg-danger mx-3">
-          <div class="card-header">Husky</div>
-          <div class="card-body">Husky goes bark bork woofs</div>
-          <div>
-            <div id="boop"><a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">##</a></div>
-            <img class="card-img" alt="husky" src="https://images.pexels.com/photos/2853130/pexels-photo-2853130.jpeg?cs=srgb&dl=photo-of-siberian-husky-puppy-2853130.jpg&fm=jpg" alt="husky">
-          </div>
-          <div class="card-link">ñeñeñe</div>
+        <div class="col-sm-12 col-md-4 m-sm-2 d-flex align-items-center justify-content-center">
+          <button type="button" onclick="toggleLamp();" id="toggle" class="btn btn-success">Encender</button>
+          <span class="mx-1 font-monospace" id="contador">0</span>
         </div>
       </div>
     </div>

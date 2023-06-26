@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto Final</title>
-    <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,40 +14,132 @@
     <script src="https://kit.fontawesome.com/4c4b4c9809.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css" />
-</head>
-<body>
-    <nav class="navbar navbar-expand-sm navbar-light text-bg-success">
-          <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                        </div>
-                    </li>
-                </ul>
+    <script type="text/javascript" src="JS/script.js"></script>
+  </head>
+  <body class="bg-light-subtle">
+    <nav class="navbar navbar-expand-sm navbar-dark text-bg-dark bg-gradient">
+      <div class="container">
+      <a class="navbar-brand" href="#"><img id="nav_logo" src="/webConStyle/images/logo.png" alt="logo"></a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#" aria-current="page">Inicio <span class="visually-hidden">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ejemplos</a>
+            <div class="dropdown-menu text-bg-danger" aria-labelledby="dropdownId">
+              <a class="dropdown-item" href="lampara.html">Lampara</a>
+              <a class="dropdown-item" href="#">Diseño Grafico</a>
+              <a class="dropdown-item" href="#">IT</a>
             </div>
-      </div>
-    </nav>
-    <div>
-        <div class="container">
-            
-        </div>
-    </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
 
-    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"> </script>
-</body>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <header>
+    </header>
+    <div class="container-fluid">
+      <div class="row justify-content-center align-content-center g-1 mt-4">
+        <h1 class="col-12 text-center">🐩 Mis Razas de perros favoritas 🐕</h1>
+        <img class="img-fluid" src="/webConStyle/images/banner.png" alt="banner perros">
+      </div>
+      <div class="row justify-content-center align-items-center g-1 mt-5">
+        <div class="col-sm-12 col-md-4 col-xl-4 card text-bg-danger mx-3">
+          <div class="card-header">Husky</div>
+          <div class="card-body">
+            <p>
+              Perros energéticos y atléticos, normalmente tienen un manto grueso doble que puede ser gris, negro, rojizo-cobre o blanco. 
+              Cuidan a sus familias, es decir que son muy protectores. Estos perros, así como otras razas de oficio, necesitan constante actividad física y largos paseos.
+              Se les reconoce por sus ojos de color azul pálido, aunque pueden tener también ojos marrones, verdes, azules intensos e incluso amarillos. 
+              Frecuentemente tienen los ojos de colores diferentes, anomalía conocida como heterocromía. 
+            </p>
+          </div>
+          <div class="d-flex justify-content-center align-content-center">
+            <img class="card-img img-responsive" alt="husky" src="https://images.pexels.com/photos/2853130/pexels-photo-2853130.jpeg?cs=srgb&dl=photo-of-siberian-husky-puppy-2853130.jpg&fm=jpg" alt="husky">
+          </div>
+          <div class="card-link"><a href="https://es.wikipedia.org/wiki/Husky">https://es.wikipedia.org/wiki/Husky</a></div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-xl-4 card text-bg-danger mx-1">
+          <div class="card-header">Pastor Aleman</div>
+          <div class="card-body text-wrap">
+            <p>
+              El pastor alemán (en alemán: Deutscher Schäferhund) es una raza de perro pastor originaria de Alemania. 
+              La raza es relativamente nueva, ya que su origen se remonta a 1899. <br>
+              Forman parte del grupo de pastoreo, ya que fueron perros desarrollados originalmente para reunir y vigilar ganado. 
+              Desde entonces, sin embargo, gracias a su fuerza, inteligencia,capacidad de entrenamiento y obediencia, 
+              los pastores alemanes de todo el mundo son a menudo la raza preferida para muchos otros tipos de trabajo, 
+              como son: perro policía, perro militar, perro guardián, guía de ciegos, animal de rescate, y otros, según el uso que le den las fuerzas y 
+              cuerpos de seguridad y el ejército.
+            </p>
+          </div>
+          <div class="d-flex justify-content-center align-content-center">
+            <img class="card-img m-auto" alt="Pastor Aleman" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Cane_da_pastore_tedesco_adulto.jpg/320px-Cane_da_pastore_tedesco_adulto.jpg" alt="Pastor Aleman">
+          </div>
+          <div class="card-link"><a href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">https://es.wikipedia.org/wiki/Pastor_aleman</a></div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-xl-4 card text-bg-danger mx-1">
+          <div class="card-header">Labrador retriever</div>
+          <div class="card-body text-wrap">
+            <p>
+              El labrador retriever (conocido también como cobrador de Labrador1 o perdiguero de Labrador) es una raza canina originaria de Terranova, en la actual Canadá. 
+              Es una de las razas más populares del mundo por la cantidad de ejemplares registrados.
+              Su excepcional afabilidad, gentileza, inteligencia, nobleza, energía y bondad, hacen que los labradores sean generalmente considerados como buenos compañeros 
+              para personas de todas las edades, así como fiables perros trabajadores, comúnmente formando parte de las brigadas caninas de la policía en operativos antidroga,
+              antiexplosivos, de búsqueda y rescate, entre otros. 
+              Con adiestramiento, el labrador es una de las razas de perro más dócil, obediente y talentosa que existen.
+            </p>
+          </div>
+          <div class="d-flex justify-content-center align-content-center">
+            <img class="card-img m-auto" alt="Pastor Aleman" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Labrador_Retriever_%281210559%29.jpg/320px-Labrador_Retriever_%281210559%29.jpg" alt="Labrador Retriever">
+          </div>
+          <div class="card-link"><a href="https://es.wikipedia.org/wiki/Labrador_retriever">https://es.wikipedia.org/wiki/Labrador_retriever</a></div>
+        </div>
+      </div>
+    </div>
+    </div>
+ 
+    <footer class="mt-5">
+      <div class="footer text-center text-bg-success pt-2">
+        <section class="col-12">
+          <a href="#" class="btn btn-link btn-outline-info m-1" >
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="btn btn-link btn-outline-info m-1">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="btn btn-link btn-outline-info m-1">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="btn btn-link btn-outline-info m-1">
+            <i class="fa fa-google" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="btn btn-link btn-outline-info m-1">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="btn btn-link btn-outline-info m-1">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="btn btn-link btn-outline-info m-1">
+            <i class="fa fa-telegram" aria-hidden="true"></i>
+          </a>
+        </section>
+        <section class="copyright">
+          <i class="fa fa-copyright" aria-hidden="true"></i> 2023 Copyright: MrTach
+        </section>
+      </div>
+      <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"> </script>
+    </footer>
+  </body>
 </html>

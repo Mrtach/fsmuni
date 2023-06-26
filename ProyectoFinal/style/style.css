@@ -1,5 +1,47 @@
+@font-face{
+    font-family: PixeloidMono;
+    src:url(fonts/PixeloidMono-d94EV.ttf);
+    }
 *{
-    font-family: roboto;
-    margin: 0;
-    padding: 0;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card{
+    box-shadow: 3px 3px 4px #ff39a9;
+    font-size: small;
+    width: 400px;
+}
+
+.card-img{
+    width: 300px;
+}
+#nav_logo {
+    height: 50px;
+}
+p{
+    text-align: justify;
+}
+.footer,.footer a:visited,.footer a {
+    color: white !important;
+}
+.footer .btn:hover{
+    box-shadow: darkgray 4px 4px;
+    transition: cubic-bezier(0, 0, 0.54, 1.07) 80.5ms;
+    transform: scale(1.2);
+    /* overflow:visible; */
+}
+#imagen-avion{
+    width: 70%;
+}
+#toggle{
+    width: 100px;
+}
+#contador{
+    font-size: 30px;
 }
